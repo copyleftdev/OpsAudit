@@ -48,4 +48,4 @@ def server_shell(host, port, uname, password,command):
     resp += shell.recv(9999)
     print resp
 
-server_shell("targeta0.codetestcode.io",22,'root','RDn3tp@$','ls -al')
+server_shell("targeta0.codetestcode.io",22,'root','OMITT','ls -al')
