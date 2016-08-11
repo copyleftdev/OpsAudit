@@ -34,6 +34,7 @@ def ops_audit(host,port,uname,password):
 
 
 def server_shell(host, port, uname, password,command):
+    """Invokr shell on linux box"""
     resp = ""
     paramiko.util.log_to_file('logs/process_collect.log')
     s = paramiko.SSHClient()
